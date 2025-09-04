@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guilherme Oliveira de Sousa – Currículo</title>
+  <meta name="description" content="Currículo profissional de Guilherme Oliveira de Sousa – Técnico de Infraestrutura de TI." />
+  <meta property="og:title" content="Guilherme Oliveira de Sousa – Currículo" />
+  <meta property="og:description" content="Currículo profissional de Guilherme Oliveira de Sousa – Técnico de Infraestrutura de TI." />
+  <meta property="og:type" content="profile" />
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    :root{
+      --bg:#0f1115; --card:#171a21; --ink:#e8eaf0; --muted:#a5adbb; --pri:#4f46e5; --acc:#22c55e; --bd: #262b36;
+    }
+    :root:has(body.light){
+      --bg:#f7f8fb; --card:#ffffff; --ink:#0f1115; --muted:#4b5565; --pri:#4338ca; --acc:#16a34a; --bd:#e5e7eb;
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font:15px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu; background:var(--bg); color:var(--ink);
+         display:flex; justify-content:center;}
+    .page{width:min(980px,100%); padding:32px 20px 56px}
+    header{display:flex; gap:18px; align-items:center; flex-wrap:wrap; margin-bottom:22px}
+    .avatar{width:84px; height:84px; border-radius:18px; background:linear-gradient(135deg,var(--pri),var(--acc)); display:grid; place-items:center; color:#fff; font-weight:700;}
+    h1{margin:0; font-size:30px; letter-spacing:.2px}
+    .subtitle{color:var(--muted); margin-top:2px}
+    .btns{margin-left:auto; display:flex; gap:10px}
+    button,.btn{border:1px solid var(--bd); background:var(--card); color:var(--ink); padding:8px 12px; border-radius:12px; cursor:pointer}
+    button:hover,.btn:hover{border-color:var(--pri)}
+    section{background:var(--card); border:1px solid var(--bd); border-radius:18px; padding:18px; margin:14px 0}
+    section h2{margin:0 0 10px; font-size:18px}
+    .grid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+    .chips{display:flex; flex-wrap:wrap; gap:8px}
+    .chip{border:1px solid var(--bd); padding:6px 10px; border-radius:999px; font-size:13px}
+    .list{display:flex; flex-direction:column; gap:12px}
+    .item{display:grid; grid-template-columns:120px 1fr; gap:12px}
+    .periodo{color:var(--muted); font-weight:600}
+    .role{font-weight:700}
+    .muted{color:var(--muted)}
+    a{color:inherit}
+    footer{opacity:.8; text-align:center; margin-top:28px; font-size:13px}
+    .split{display:grid; grid-template-columns:1.1fr .9fr; gap:14px}
+    @media (max-width:860px){
+      .grid{grid-template-columns:1fr}
+      .item{grid-template-columns:1fr}
+      .split{grid-template-columns:1fr}
+      .btns{width:100%; justify-content:flex-start}
+    }
+    @media print{
+      body{background:#fff}
+      section, .page{border:none; box-shadow:none}
+      .btns, nav{display:none !important}
+    }
+    .badge{display:inline-flex; align-items:center; gap:6px; border:1px solid var(--bd); padding:4px 8px; border-radius:10px; font-size:12px}
+    .badges{display:flex; gap:8px; flex-wrap:wrap}
+  </style>
+</head>
+<body class="light">
+  <div class="page">
+    <header>
+      <div class="avatar" aria-label="Foto/Avatar">
+        <span>GO</span>
+      </div>
+      <div>
+        <h1>Guilherme Oliveira de Sousa</h1>
+        <div class="subtitle">Técnico de Infraestrutura de TI • Brasília/DF • Disponível para remoto</div>
+        <div class="badges" style="margin-top:8px">
+          <span class="badge">⏱️ Experiência em TI</span>
+          <span class="badge">🌐 PT-BR • EN básico</span>
+          <span class="badge">🟢 Disponível</span>
+        </div>
+      </div>
+      <div class="btns">
+        <button id="toggleTheme">🌙/☀️ Tema</button>
+        <button onclick="window.print()">🖨️ PDF</button>
+      </div>
+    </header>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>
+        Atualmente, atuo como <strong>Técnico de Infraestrutura de TI</strong> no <strong>Sicoob</strong>, contribuindo para operações críticas de TI com foco em backup e acessos privilegiados. Trabalho em colaboração com a equipe para implementar práticas robustas de gestão de dados e proteção de informações sensíveis.
+      </p>
+      <p>
+        Estou cursando <strong>Bacharelado em Análise e Desenvolvimento de Sistemas</strong> na <strong>UNIP</strong>, com previsão de conclusão em dezembro de 2025. Meu objetivo é integrar habilidades técnicas e analíticas para fortalecer iniciativas estratégicas em ambientes de TI, alinhando segurança e eficiência operacional.
+      </p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiência</h2>
+      <div class="list">
+        <div class="item">
+          <div class="periodo">2023 – Atual</div>
+          <div>
+            <div class="role">Técnico de Infraestrutura de TI • Sicoob</div>
+            <div class="muted">Brasília/DF</div>
+            <ul>
+              <li>Administração de conexões remotas e acessos privilegiados.</li>
+              <li>Atuação com SQL Server, PuTTY, ESTAG, TSM.</li>
+              <li>Gestão de rotinas de backup e recuperação de dados.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="periodo">2022 – 2023</div>
+          <div>
+            <div class="role">Auxiliar de Operações de TI • Sicoob</div>
+            <div class="muted">Brasília/DF</div>
+            <ul>
+              <li>Suporte a operações de infraestrutura de TI.</li>
+              <li>Auxílio em monitoramento e suporte a sistemas críticos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <div class="grid">
+        <div>
+          <strong>Técnicas</strong>
+          <div class="chips" style="margin-top:8px">
+            <span class="chip">Infraestrutura de TI</span>
+            <span class="chip">Backup & Recovery</span>
+            <span class="chip">SQL Server</span>
+            <span class="chip">PuTTY</span>
+            <span class="chip">TSM</span>
+            <span class="chip">Conexão Remota</span>
+          </div>
+        </div>
+        <div>
+          <strong>Comportamentais</strong>
+          <div class="chips" style="margin-top:8px">
+            <span class="chip">Trabalho em equipe</span>
+            <span class="chip">Resolução de problemas</span>
+            <span class="chip">Comunicação</span>
+            <span class="chip">Organização</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="educacao">
+      <h2>Educação</h2>
+      <div class="list">
+        <div class="item">
+          <div class="periodo">2022 – 2025</div>
+          <div>
+            <div class="role">Bacharelado em Análise e Desenvolvimento de Sistemas • UNIP</div>
+            <div class="muted">Previsão de conclusão: Dezembro/2025</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificacoes">
+      <h2>Certificações</h2>
+      <ul>
+        <li>Excel 2016</li>
+        <li>Administração</li>
+        <li>Marketing Digital</li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <div class="chips">
+        <a class="chip" href="mailto:seuemail@exemplo.com">📧 Email</a>
+        <a class="chip" href="https://www.instagram.com/euguiiiih" target="_blank">Instagram</a>
+        <a class="chip" href="https://www.linkedin.com/in/guilherme-oliveira-2341892b7" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> • Guilherme Oliveira de Sousa • Currículo em HTML.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    const btn = document.getElementById('toggleTheme');
+    function setTheme(t){
+      document.body.classList.toggle('light', t==='light');
+      localStorage.setItem('theme', t);
+    }
+    btn.addEventListener('click',()=>{
+      const now = document.body.classList.contains('light') ? 'dark' : 'light';
+      setTheme(now);
+    });
+    const saved = localStorage.getItem('theme'); if(saved){ setTheme(saved) }
+  </script>
+</body>
+</html>
